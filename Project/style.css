@@ -1,6 +1,5 @@
 body {
-	background-color: #ffffff;
-	padding: 150px;
+	margin: 150px;
 }
 form {
     width: 500px;
@@ -11,7 +10,6 @@ form {
 	background-color: #e2e2e2;
 }
 input{
-	color: #fff;
 	padding: 10px;
 	font-size: 32px;
 	border: 1px solid #8d8d8d;
