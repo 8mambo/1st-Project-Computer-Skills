@@ -3,32 +3,30 @@
 <title>Form</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<h1>Register</h1>
+
 <form action="main.html">
 
-<input type="text" placeholder="First Name" required><br>
-<input type="text" placeholder="Last Name"><br>
-<input type="text" placeholder="Email" required><br>
-<input type="password" name="password" placeholder="Password" required><br>
+<label id="register">Register</label>
+
+<input id="text" type="text" placeholder="First Name" required><br>
+<input id="text" type="text" placeholder="Last Name"><br>
+<input id="text" type="text" placeholder="Email" required><br>
+<input id="text" type="password" name="password" placeholder="Password" required><br>
 
 <label>
-  <input type="checkbox" name="pass" value="Remember Password">Remember me<br>
+  <input type="checkbox" name="pass" value="Remember Password"> Remember me<br>
 </label>
 
-<label>Choose Your gender:<br></label>
+<label>Choose Your gender :<br></label>
 
 <label>
-  <input type="radio" name="Gender" value="Male"> Male<br>
+  <input type="radio" name="Gender" value="Male" required> Male<br>
+  <input type="radio" name="Gender" value="Female" required> Female<br>
 </label>
 
-<label>
-  <input type="radio" name="Gender" value="Female"> Female<br>
-</label>
-
-<input type="submit" value="Submit"><br>
-<input type="reset" value="Reset">
+<input class="sr" type="reset" value="Reset"><br>
+<input class="sr" type="submit" value="Submit"><br>
 
 </form>
 <body>
