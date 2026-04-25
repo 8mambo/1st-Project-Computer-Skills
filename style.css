@@ -1,0 +1,59 @@
+body {
+	font-family: Arial,sans-serif;
+}
+form {
+	display: block;
+	margin: 0 auto;
+    width:500px;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	padding: 5px;
+}
+#register {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 44px;
+	text-align: center;
+}
+input{
+	padding: 10px;
+	font-size: 32px;
+	border: 1px solid #8d8d8d;
+	border-radius: 15px;
+}
+.text input{
+	display: block;
+	margin: 0 auto;
+}
+label {
+	font-size: 32px;
+}
+select {
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sr input{
+	display: block;
+	margin: 0 auto;
+	color: #ffffff;
+    width: 95%;
+    padding: 10px;
+    background-color: #1e73d8;
+    font-size: 28px;
+}
+.main h1{
+	color: green;
+}
+#gemini img{
+	display: block;
+	margin: 0 auto;
+	width:100px;
+}
+.sec h1{
+	color: blue;
+}
+.sec img{
+	display: block;
+	margin: 0 auto;
+	width:100px;	
