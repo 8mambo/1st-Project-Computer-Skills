@@ -7,18 +7,10 @@ body {
 	align-items: center;
 }
 form {
-	display: block;
-	margin: auto;
     width:500px;
 	border: 1px solid #000000;
 	border-radius: 15px;
 	padding: 5px;
-}
-#register {
-	display: block;
-	margin-bottom: 5px;
-	font-size: 44px;
-	text-align: center;
 }
 input{
 	padding: 10px;
@@ -36,8 +28,6 @@ label {
 select {
 	padding: 5px;
 	width: 50%;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 pre {
 	font-family: Arial, sans-serif;
