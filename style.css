@@ -28,7 +28,7 @@ input{
 }
 .text input{
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 }
 label {
 	font-size: 32px;
@@ -61,7 +61,7 @@ pre {
 }
 #gemini img{
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 	width:100px;
 }
 .sec h1{
